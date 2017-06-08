@@ -10,16 +10,21 @@ army green: 41521F;
 	background-size:cover;
 	background-repeat: no-repeat;
 }
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 16px;
+.navbar-default {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
 }
 
-nav h3{
-	color:#ffffff;
+/* Color de la navbar */
+
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
 }
 
+.navbar-default .navbar-nav li a {
+color: #FFFFFF;
+}
 
 /*BIENVENIDA*/
 
@@ -36,6 +41,7 @@ img{
 	background-color:#41521F;
 	border-color:#41521F;
 }
+
 
 
 /*SECTION 2 FOUNDATION INFORMATION*/
@@ -78,16 +84,45 @@ img{
 	background-repeat: no-repeat;
 }
 
-.white2{
-	color:white;
+.help-koala{
+	padding-top: 109px;
+	color: white;
 }
 
 /*SECTION 5*/
+.five-section{
+	padding:100px;
+}
 
+ #hard{
+ 	font-size: 24px;
+	color:#A89F68;
+	padding-bottom: 20px;
+}
+#animales{
+	color:#A89F68;
+}
 
 /*SECTION 6*/
 .six-section{
 	background-color: #A89F68;
+	padding: 100px;
+}
+
+ #hard2{
+ 	font-size: 24px;
+	color:#41521F;
+	padding-bottom: 20px;
+}
+
+.negrita{
+	font-weight: bold;
+	color: black;
+}
+
+.letra-grande{
+	font-size: 90px;
+	color: white;
 }
 
 
@@ -95,4 +130,35 @@ img{
 /*SECTION*/
 .seven-section{
 	background-color:#41521F;
+	padding:100px;
+}
+
+ul {
+    padding: 18px;
+    list-style: none;
+    padding-left: 45px;
+}
+
+.about{
+	color:#A89F68;
+}
+
+#p2{
+	color: white;
+}
+
+#line-white{
+	color: white;
+}
+
+span{
+	font-size: 17px;
+	color:white;
+}
+
+.peso {
+    margin-top: 22px;
+    position: absolute;
+    left: 104px;
+    /* color: black; */
 }

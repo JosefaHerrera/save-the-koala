@@ -16,29 +16,32 @@
 <body>
 	<!--NAVBAR-->
 		<section class="first-section">
-			<nav class="navbar">
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
-					<div class="navbar-collapse collapse">
-						<div class="navbar-left">
-							<h3>Save The Koala</h3>
-						</div>
-							
-						<ul class=" nav navbar-nav navbar-right">
-							<li><a href="#foundation">Foundation</a></li>
-							<li><a href="#koalas">Koalas</a></li>
-							<li><a href="#donate">Donate</a></li>
-						</ul>
-					</div>
-				</div>
-			</nav>
+			<!--NAVBAR-->
+        <nav class="navbar navbar-fixed-top">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        <!-- LOGO - save the koala -->
+                        <a class="navbar-brand" href="#">Save the Koala</a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Foundation</a></li>
+                            <li><a href="#">Koalas</a></li>
+                            <li><a href="#">Donate</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </nav>
 				<!--BIENVENIDA - SAVE THE KOALA-->
 			<div class="container" id="bienvenida">
 				<div class="row">
@@ -102,7 +105,7 @@
 	<section class="four-section">
 		<div class="container">
 			<div class="row">
-					<div class="col-lg-offset-6 col-lg-4 col-md-4 col-sm-12 col-xs-12  ">
+					<div class="col-lg-offset-6 col-lg-4 col-md-4 col-sm-12 col-xs-12 help-koala ">
 						<h4>HELP KOALAS</h4>
 					<h2>“No Tree... No Me”</h2>
 					<p>Dick Marks, AKF’s creative supporter.</p>
@@ -115,19 +118,20 @@
 		<div class="container">
 			<div class="row">
 			<div class="col-lg-12 text-center">
-						<h2>It’s not hard to see how we can help.</h2>
-						
-					</div>
+				<div class="col-lg-12">
+					<h2 id="hard">It’s not hard to see how we can help.</h2>
+				</div>
+			</div>
 					<div class="col-lg-4 col-xs-6 text-center">
-						<h1><i class="fa fa-heart" aria-hidden="true"></i></h1>
+						<i  id="animales" class="fa fa-heart fa-4x" aria-hidden="true"></i>
 						<p>There are many people who are working very hard to achieve the conservation of the koala and you can join them by visiting www.savethekoala.com.</p>
 					</div>
 					<div class="col-lg-4 col-xs-6 text-center">
-						<h1><i class="fa fa-globe" aria-hidden="true"></i></h1>
+						<i  id="animales" class="fa fa-globe fa-4x" aria-hidden="true"></i>
 						<p>The only way to save koalas is to save their habitat, the eucalyptus forests where they live, and which they must have to survive. This is what the Australian Koala Foundation is trying to achieve.</p>
 					</div>
 					<div class="col-lg-4 col-xs-6 text-center">
-						<h1><i class="fa fa-paw" aria-hidden="true"></i></h1>
+						<i id="animales" class="fa fa-paw fa-4x" aria-hidden="true"></i>
 						<p>But they can't do it alone and they need the help of people like you. You may think that just one person cannot make any difference in helping koalas or in helping our environment generally, but if each person does even one little thing to help, it can add up to a lot of help.
 						</p>
 					</div>
@@ -139,45 +143,46 @@
 		<div class="container">
 			<div class="row">
 					<div class="col-lg-12 text-center">
-						<h2>It’s not hard to see how we can help.</h2>
+						<h2 id="hard2">It’s not hard to see how we can help.</h2>
 						
 					</div>
-					<div class="col-lg-4 col-xs-6 text-center">
-						<h3>PERSONAL</h3>
-						<i class="fa fa-usd" aria-hidden="true"></i><p>19/AUD</p>
+					<div class="money col-lg-4 col-xs-6 text-center">
+						<h5 class="negrita">P E R S O N A L</h5>
+						<span class="peso">$</span><span class="letra-grande">19</span><span>/AUD</span>
 						<p>Save 1 koala per month.</p>
-						<p>_____________________________</p>
-						<p>1 - T-shirt</p>
-						<p>_____________________________</p>
-						<p>1 visits per month</p>
-						<p>_____________________________</p>
-						<p>publicAPI access</p>
+						<p id="line-white">___________________________________________________</p>
+						<p><span class="negrita">1</span> - T-shirt</p>
+						<p id="line-white">___________________________________________________</p>
+						<p><span class="negrita">1</span> visits per month</p>
+						<p id="line-white">___________________________________________________</p>
+						<p><span class="negrita">public</span>API access</p>
 						<button class="btn btn-default" type="button">DONATE</button>
 					</div>
-					<div class="col-lg-4 col-xs-6 text-center">
-						<h3>GROUPS</h3>
-						<i class="fa fa-usd" aria-hidden="true"></i><p>29/AUD</p>
+					<div class="money col-lg-4 col-xs-6 text-center">
+						<h5 class="negrita">G R O U P S</h5>
+						<span class="peso">$</span><span class="letra-grande">29</span><span>/AUD</span>
 						<p>Save 2 koala per month.</p>
-						<p>_____________________________</p>
-						<p>2 - T-shirt</p>
-						<p>_____________________________</p>
-						<p>2 visits per month</p>
-						<p>_____________________________</p>
-						<p>publicAPI access</p>
+						<p id="line-white">___________________________________________________</p>
+						<p><span class="negrita">2</span> - T-shirt</p>
+						<p id="line-white">___________________________________________________</p>
+						<p><span class="negrita">2</span> visits per month</p>
+						<p id="line-white">___________________________________________________</p>
+						<p><span class="negrita">public</span>API access</p>
 						<button class="btn btn-default" type="button">DONATE</button>
 					</div>
-					<div class="col-lg-4 col-xs-6 text-center">
-						<h3>COMPANIES</h3>
-						<i class="fa fa-usd" aria-hidden="true"></i><p>59/AUD</p>
+					<div class="money col-lg-4 col-xs-6 text-center">
+						<h5 class="negrita">C O M P A N I E S</h5>
+						<span class="peso">$</span><span class="letra-grande">59</span><span>/AUD</span>
 						<p>Save 3 koala per month.</p>
-						<p>_____________________________</p>
-						<p>3 - T-shirt</p>
-						<p>_____________________________</p>
-						<p>3 visits per month</p>
-						<p>_____________________________</p>
-						<p>publicAPI access</p>
+						<p id="line-white">___________________________________________________</p>
+						<p><span class="negrita">3</span> - T-shirt</p>
+						<p id="line-white">___________________________________________________</p>
+						<p><span class="negrita">3</span> visits per month</p>
+						<p id="line-white">___________________________________________________</p>
+						<p><span class="negrita">public</span>API access</p>
 						<button class="btn btn-default" type="button">DONATE</button>
 					</div>
+					
 			</div>
 		</div>
 	</section>
@@ -186,8 +191,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-xs-6">
-					<h2>ABOUT</h2>
-					<p>The Australian Koala Foundation receives no funding from any government so they rely on people like you to help raise funds for their important work in saving koalas for future generations to enjoy. If you’d like to learn more, contact us anytime at akf@savethekoala.com.</p>
+					<h5 class="about">ABOUT</h5>
+					<p id="p2">The Australian Koala Foundation receives no funding from any government so they rely on people like you to help raise funds for their important work in saving koalas for future generations to enjoy. If you’d like to learn more, contact us anytime at <a href="#">akf@savethekoala.com</a>.</p>
 				</div>
 				<div class="col-lg-2 col-xs-6">
 						<ul>
