@@ -3,7 +3,7 @@ wood brown: A89F68;
 army green: 41521F;
 */
 
-
+/*NAVBAR*/
 .first-section{
 	background-image: url(../img/portada.jpg);
 	height: 100vh;
@@ -20,30 +20,34 @@ nav h3{
 	color:#ffffff;
 }
 
-.white{
-	color:#FFFFFF;
-}
 
-.btn-color{
-	color:#41521F;
-}
-
-/**/
+/*BIENVENIDA*/
 
 img{
 	width: 100%;
 }
-
-.foundation{
-	margin-top: 10px;
+.white{
+	color:#FFFFFF;
+		padding-top: 230px;
 }
 
-/**/
+.btn-default{
+	color:#FFF;
+	background-color:#41521F;
+	border-color:#41521F;
+}
 
-.brown{
+
+/*FOUNDATION INFORMATION*/
+
+
+/*SECTION 3*/
+.their-section{
 	background-color: #A89F68;
 }
 
+
+/*SECTION 4*/
 .four-section{
 	background-image: url(../img/all.jpg);
 	height: 100vh;
@@ -51,17 +55,17 @@ img{
 	background-repeat: no-repeat;
 }
 
-/**/
+/*SECTION 5*/
 
 
-/**/
+/*SECTION 6*/
 .six-section{
 	background-color: #A89F68;
 }
 
 
 
-/**/
+/*SECTION*/
 .seven-section{
 	background-color:#41521F;
 }
