@@ -2,7 +2,11 @@
 wood brown: A89F68;
 army green: 41521F;
 */
-
+body{
+	padding: 0;
+	margin:0;
+	overflow-x: hidden;
+}
 /*NAVBAR*/
 .first-section{
 	background-image: url(../img/portada.jpg);
@@ -45,9 +49,6 @@ img{
 
 
 /*SECTION 2 FOUNDATION INFORMATION*/
-.section2{
-	padding-top: 36px;
-}
 .fundacion-texto p{
 	color:black;
 }
@@ -56,9 +57,10 @@ img{
 }
 
 /*SECTION 3*/
-.their-section{
-	background-color: #A89F68;
-	padding: 113px;
+.their-section {
+    background-color: #A89F68;
+    height: 481px;
+    padding-top: 63px;
 }
 .cosita {
     border: 10px solid white;
@@ -159,6 +161,5 @@ span{
 .peso {
     margin-top: 22px;
     position: absolute;
-    left: 104px;
-    /* color: black; */
+
 }
