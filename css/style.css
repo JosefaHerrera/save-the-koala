@@ -65,14 +65,14 @@ img{
 /*SECTION 3*/
 .their-section {
     background-color: #A89F68;
-    height: 481px;
+    height: 100vh;
     padding-top: 63px;
 }
 .cosita {
     border: 10px solid white;
     background-image: url(../img/cosita.jpg);
     background-size: 100%;
-    height: 338px;
+    height: 300px;
     background-repeat: no-repeat;
 }
 
