@@ -49,6 +49,9 @@ img{
 
 
 /*SECTION 2 FOUNDATION INFORMATION*/
+.section2{
+	padding: 30px;
+}
 .fundacion-texto p{
 	color:black;
 }
